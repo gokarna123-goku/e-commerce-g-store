@@ -186,7 +186,7 @@ nav{
     color: var(--tertiary-light);
 }
 .search_box input{
-    width: 80%;
+    width: 79%;
     height: 100%;
     outline: none;
     border: none;
@@ -194,7 +194,23 @@ nav{
     font-size: 1.0rem;
     color: var(--tertiary-light);
 }
+.vr{
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-right: 0.5rem;
+}
 
+.search_section select{
+    width: 20%;
+    height: 100px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.0rem;
+    color: var(--tertiary-light);
+}
 
 
 
