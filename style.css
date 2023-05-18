@@ -148,11 +148,31 @@ nav{
 }
 
 
-
-
+/* Logo, Search, and User Action Section */
+.logo_search_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: var(--bg-light);
+}
+/* Logo Section */
 .logo{
-    width: 150px;
-    height: 20px;
+    width: 170px;
+    height: 6.5vh;
+}
+
+/* Search Section */
+.search_section{
+    width: 50%;
+    height: 42px;
+    padding: 0 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.09);
 }
 
 
