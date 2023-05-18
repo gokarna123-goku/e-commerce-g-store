@@ -17,17 +17,26 @@ li{
 }
 
 :root{
-    /* For Bg Light */
-    --bg-light: ;
-    --primary-light: ;
+    /* Global Secondary Color */
     --secondary: ;
-    --tertiary-light: ;
-    --product-card-box-shadow-light: ;
-    --product-hover-effect-light: ;
 
+    /* For Bg Light */
+    --bg-light: #ffffff;
+    --primary-light: #1d1d1d;
+    --tertiary-light: #707070;
+    --product-hover-effect-light: 0 1px 12px rgba(0, 0, 0, 0.2);
+    
+    /* --product-card-box-shadow-light: 0 1px 12px rgba(0, 0, 0, 0.2); */
+    
     /* For Bg Dark */
     --bg-dark: ;
+    --primary-dark: ;
+    --tertiary-dark: ;
+    --product-card-box-shadow-dark: ;
+    --product-hover-effect-dark: ;
 
+    /* Font Sizes */
+    
 }
 
 
