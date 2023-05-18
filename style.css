@@ -111,6 +111,11 @@ nav{
     align-items: center;
     gap: 1.2rem;
 }
+.social_section select{
+    outline: none;
+    background: none;
+    border: 1px solid #a8a8a8;
+}
 
 
 
