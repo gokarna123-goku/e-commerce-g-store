@@ -128,6 +128,25 @@ nav{
     border: 1px solid var(--bg-light);
 }
 
+.social_box{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
+}
+.social_box a{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_box a i{
+    font-size: 0.89rem;
+    color: var(--tertiary-light);
+}
+
 
 
 
