@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Font Awesome Cdn link -->
     <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- JQuery cdn link -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Owl Carousel min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Owl Carousel theme default css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Custom Css Link -->
     <link rel="stylesheet" href="./style.css">
     <title> Home | G-Store App </title>
@@ -223,8 +232,22 @@
         <!-- Popluar Product -->
         <div class="popular_section">
             <h5 class="box_title">Best Offer Products</h5>
-            <div class="popular_box">
+            <!-- <div class="popular_box">
                 <div class="popular_card"></div>
+            </div> -->
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
             </div>
         </div>
 
@@ -236,6 +259,29 @@
     <!-- Custom JavaScript link -->
     <script src="./main.js"></script>
 
+    <!-- Owl Carousel min javascript cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Owl Carousel Inilialize -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -246,7 +292,7 @@
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
-            loop : true,
+            loop: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false
