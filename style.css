@@ -73,6 +73,38 @@ nav{
     padding: 5px 60px;
 }
 
+/* Store info and social account section */
+.store_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* Contact & Email Section Styling */
+.contact_section{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.contact_box{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ /* Social media and Currency section */
+.social_section{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+
+
+
 .logo{
     width: 150px;
     height: 20px;
