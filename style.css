@@ -658,6 +658,42 @@ nav{
     object-fit: cover;
     object-position: center;
 }
+.banner_data{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.58);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--secondary);
+}
+/* .shop_btn{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.shop_now{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 170px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-light);
+    background: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    column-gap: 0.5rem;
+}
 
 
 
