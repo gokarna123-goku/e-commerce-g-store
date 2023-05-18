@@ -334,6 +334,30 @@ nav{
     left: 0;
     width: 100%;
 }
+.swiper-button-prev, 
+.swiper-rtl 
+.swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 5%);
+    right: auto;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.48);
+    color: var(--secondary);
+    border-radius: 4px;
+}
+.swiper-button-next, 
+.swiper-rtl 
+.swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 5%);
+    left: auto;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.48);
+    color: var(--secondary);
+    border-radius: 4px;
+}
 
 
 
