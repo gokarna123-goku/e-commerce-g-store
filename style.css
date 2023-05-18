@@ -293,6 +293,7 @@ nav{
     height: 70vh;
     object-fit: cover;
     object-position: center;
+    border-radius: 4px;
 }
 
 .autoplay-progress {
@@ -358,6 +359,7 @@ nav{
     color: var(--secondary);
     border-radius: 4px;
 }
+
 
 
 
