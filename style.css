@@ -71,6 +71,7 @@ nav{
     align-items: center;
     flex-direction: column;
     margin-bottom: 1.5rem;
+    z-index: 1;
 }
 
 /* Store info and social account section */
@@ -170,7 +171,7 @@ nav{
     padding: 10px 60px;
     background: var(--bg-light);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 9999;
 }
 /* Logo Section */
 .logo{
@@ -200,7 +201,7 @@ nav{
     color: var(--tertiary-light);
 }
 .search_box input{
-    width: 79%;
+    width: 75%;
     height: 100%;
     outline: none;
     border: none;
@@ -217,7 +218,7 @@ nav{
 }
 
 .search_section select{
-    width: 20%;
+    width: 25%;
     height: 100px;
     border: none;
     outline: none;
