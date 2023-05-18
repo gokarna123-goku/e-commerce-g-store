@@ -44,6 +44,7 @@ li{
     --primary-light: #1d1d1d;
     --tertiary-light: #3f3f3f;
     --product-hover-effect-light: 0 1px 12px rgba(0, 0, 0, 0.2);
+    --linear-gradient: linear-gradient(to bottom, rgba(0, 0, 0, 0.55),  rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
     
     /* --product-card-box-shadow-light: 0 1px 12px rgba(0, 0, 0, 0.2); */
 
@@ -684,6 +685,16 @@ nav{
     justify-content: center;
     border-radius: 4px;
     column-gap: 0.5rem;
+}
+
+
+/* Offer Banner Section */
+.offer_banner_section{
+    width: 100%;
+    height: 55vh;
+    background: rgba(0, 0, 0, 0.2) url("./img/products/hero2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
