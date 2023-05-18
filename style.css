@@ -477,6 +477,7 @@ nav{
     padding: 40px 60px;
 }
 .popular_card{
+    position: relative;
     width: 270px;
     height: auto;
     border-radius: 4px;
@@ -487,6 +488,14 @@ nav{
     height: 30vh;
     object-fit: cover;
     object-position: center;
+}
+.popular_type{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(25, 167, 206, 0.8);
+    padding: 4px 7px;
+    border-radius: 4px;
 }
 
 
