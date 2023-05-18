@@ -18,7 +18,7 @@ li{
 
 :root{
     /* Global Secondary Color */
-    --secondary: ;
+    --secondary: #19A7CE;
 
     /* For Bg Light */
     --bg-light: #ffffff;
@@ -43,8 +43,27 @@ li{
 .main_section{
     width: 100%;
     min-height: 100vh;
-    background: var(--bg-dark);
+    background: var(--bg-light);
 }
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* End of CSS */
