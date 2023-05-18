@@ -48,11 +48,11 @@ li{
     /* --product-card-box-shadow-light: 0 1px 12px rgba(0, 0, 0, 0.2); */
 
     /* For Bg Dark */
-    --bg-dark: #141414;
+    /* --bg-dark: #141414;
     --primary-dark: ;
     --tertiary-dark: ;
     --product-card-box-shadow-dark: ;
-    --product-hover-effect-dark: ;
+    --product-hover-effect-dark: ; */
 
     /* Font Sizes */
     
@@ -482,6 +482,7 @@ nav{
     border-radius: 4px;
     overflow: hidden;
     transition: opacity 0.5s ease-out;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .popular_image_action_box{
     position: relative;
@@ -554,6 +555,18 @@ nav{
 .popular_card:hover .popular_action,
 .popular_card:hover .view_detail{
     opacity: 1;
+}
+.popular_data{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.popular_data .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-light);
 }
 
 
