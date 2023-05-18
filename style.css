@@ -432,21 +432,23 @@ nav{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.3rem;
+    gap: 2.1rem;
 }
 .category_card{
     position: relative;
-    width: 235px;
-    height: 25vh;
+    width: 250px;
+    height: 28vh;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.5s ease-out;
 }
-.category_card img{
+.cat_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: all 0.5s ease-out;
 }
 .cat_title{
     position: absolute;
@@ -460,9 +462,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--tertiary-light);
+}
+.category_card:hover .cat_img{
+    transform: scale(1.4) skew(10deg);
 }
 
 
