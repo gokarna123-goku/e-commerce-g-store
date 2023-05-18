@@ -227,6 +227,10 @@ nav{
     background: rgba(0, 0, 0, 0.2);
     font-size: 1.1rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tertiary-light);
 }
 .action_section a{
     width: 35px;
@@ -237,6 +241,10 @@ nav{
     background: rgba(0, 0, 0, 0.2);
     font-size: 1.1rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tertiary-light);
 }
 
 
