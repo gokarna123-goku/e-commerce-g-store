@@ -596,7 +596,43 @@ nav{
 
 /* Edited the Owl Carousel next and prev button */
 
-
+.owl-prev, .owl-next{
+    color: var(--primary-light);
+    font-size: 3rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+    color: var(--primary-light);
+    font-size: 3.0rem !important;
+    padding-top: -1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
+    color: var(--primary-light);
+    font-size: 3.0rem !important;
+    padding-top: -1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.owl-prev {
+    top: -15%;
+    right: 50px;
+}
+.owl-next {
+    top: -15%;
+    right: 0px;
+} 
 
 
 
