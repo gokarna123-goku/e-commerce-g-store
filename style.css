@@ -257,7 +257,8 @@ nav{
     background: var(--secondary);
     display: flex;
     align-items: center;
-    gap: 1.4rem;
+    justify-content: center;
+    gap: 1.7rem;
 }
 .nav_items ul{
     display: block;
@@ -269,6 +270,8 @@ nav{
 .nav_items li a{
     font-size: 1.2rem;
     color: var(--primary-light);
+    font-weight: 500;
+    letter-spacing: 0.06rem;
 }
 
 
