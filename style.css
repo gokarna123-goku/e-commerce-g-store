@@ -632,7 +632,32 @@ nav{
 .owl-next {
     top: -15%;
     right: 0px;
-} 
+}
+
+
+/* Banner Section */
+.banner_section{
+    width: 100%;
+    height: auto;
+    padding: 40px 60px;
+    background: rgba(25, 167, 206, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+}
+.banner_card{
+    position: relative;
+    width: 32%;
+    height: 35vh;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.banner_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
