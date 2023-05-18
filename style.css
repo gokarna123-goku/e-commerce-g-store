@@ -42,7 +42,7 @@ li{
     /* For Bg Light */
     --bg-light: #ffffff;
     --primary-light: #1d1d1d;
-    --tertiary-light: #707070;
+    --tertiary-light: #3f3f3f;
     --product-hover-effect-light: 0 1px 12px rgba(0, 0, 0, 0.2);
     
     /* --product-card-box-shadow-light: 0 1px 12px rgba(0, 0, 0, 0.2); */
@@ -70,7 +70,6 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 5px 60px;
 }
 
 /* Store info and social account section */
@@ -78,9 +77,10 @@ nav{
     width: 100%;
     height: auto;
     display: flex;
+    padding: 6px 60px;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    background: rgba(25, 167, 206, 0.07);
 }
 
 /* Contact & Email Section Styling */
@@ -93,6 +93,16 @@ nav{
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+.contact_box i{
+    font-size: 0.80rem;
+    color: var(--tertiary-light);
+}
+.contact_box p{
+    font-size: 0.99rem;
+    font-weight: 400;
+    color: var(--tertiary-light);
+    cursor: pointer;
 }
 
  /* Social media and Currency section */
