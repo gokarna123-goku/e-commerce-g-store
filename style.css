@@ -471,7 +471,11 @@ nav{
 }
 
 /* Popular Product Section */
-
+.popular_section{
+    width: 100%;
+    height: auto;
+    padding: 40px 60px;
+}
 
 
 
