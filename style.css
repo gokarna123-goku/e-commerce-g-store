@@ -557,7 +557,7 @@ nav{
     opacity: 1;
 }
 .popular_data{
-    padding: 10px;
+    padding: 15px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -567,6 +567,31 @@ nav{
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--primary-light);
+}
+.rating_section{
+    display: flex;
+    align-items: center;
+    column-gap: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+.rating_section i{
+    font-size: 0.89rem;
+    color: #d29614;
+}
+.price_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
+}
+.selling_price{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary-light);
+}
+.discount_price{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--tertiary-light);
 }
 
 
