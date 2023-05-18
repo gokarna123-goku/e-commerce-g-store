@@ -499,7 +499,32 @@ nav{
     font-size: 0.89rem;
     color: var(--bg-light);
 }
-
+.popular_action{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1.0rem;
+}
+.popular_action a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.87);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0rem;
+    color: var(--primary-light);
+    transition: 0.5s ease-out;
+}
+.popular_action a:hover{
+    background: rgba(25, 167, 206, 0.8);
+    color: var(--bg-light);
+}
 
 
 
