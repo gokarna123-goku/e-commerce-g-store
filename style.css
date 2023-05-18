@@ -16,6 +16,25 @@ li{
     list-style-type: none;
 }
 
+/* Create own custom scrollbar */
+/* Width */
+::-webkit-scrollbar{
+    width: 8px;
+}
+/* Scrollbar Track */
+::-webkit-scrollbar-track{
+    background: #f0f0f0;
+}
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb{
+    background: #a8a8a8;
+}
+/* Scrollbar Handle Hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #9a9a9a;
+}
+
+
 :root{
     /* Global Secondary Color */
     --secondary: #19A7CE;
@@ -54,6 +73,10 @@ nav{
     padding: 5px 60px;
 }
 
+.logo{
+    width: 150px;
+    height: 20px;
+}
 
 
 
