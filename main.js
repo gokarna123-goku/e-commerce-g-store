@@ -14,21 +14,21 @@ window.addEventListener("scroll", function () {
 $(document).ready(() => {
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     dots: false,
-    // responsiveClass: true,
-    // responsive: {
-    //   0: {
-    //     items: 1,
-    //   },
-    //   600: {
-    //     items: 3,
-    //   },
-    //   1000: {
-    //     items: 5,
-    //   },
-    // },
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
   });
 });
 
