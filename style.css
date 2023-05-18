@@ -117,6 +117,7 @@ nav{
     border: none;
     font-size: 0.99rem;
     color: var(--tertiary-light);
+    cursor: pointer;
 }
 .social_section select option{
     outline: none;
@@ -210,6 +211,7 @@ nav{
     background: none;
     font-size: 1.0rem;
     color: var(--tertiary-light);
+    cursor: pointer;
 }
 
 /* User Action Section */
@@ -265,7 +267,7 @@ nav{
     margin-right: 1.2rem;
 }
 .nav_items li a{
-    font-size: 1..2rem;
+    font-size: 1.2rem;
     color: var(--primary-light);
 }
 
