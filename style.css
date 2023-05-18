@@ -258,14 +258,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.7rem;
 }
 .nav_items ul{
     display: block;
 }
 .nav_items li{
     display: inline-block;
-    margin-right: 1.2rem;
+    margin-right: 1.7rem;
 }
 .nav_items li a{
     font-size: 1.2rem;
