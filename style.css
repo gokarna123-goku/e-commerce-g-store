@@ -735,6 +735,21 @@ nav{
     column-gap: 0.5rem;
 }
 
+/* Sponsor Section */
+.sponsor_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 40px 60px;
+}
+.sponsor_section img{
+    width: 180px;
+    height: 6vh;
+}
+
 
 
 /* End of CSS */
