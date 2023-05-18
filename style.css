@@ -493,9 +493,11 @@ nav{
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(25, 167, 206, 0.8);
+    background: rgba(25, 167, 206, 1);
     padding: 4px 7px;
     border-radius: 4px;
+    font-size: 0.89rem;
+    color: var(--bg-light);
 }
 
 
