@@ -247,6 +247,28 @@ nav{
     color: var(--tertiary-light);
 }
 
+/* Nav Items Section Styling */
+.nav_items{
+    width: 100%;
+    height: auto;
+    padding: 15px 60px;
+    background: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.nav_items ul{
+    display: block;
+}
+.nav_items li{
+    display: inline-block;
+    margin-right: 1.2rem;
+}
+.nav_items li a{
+    font-size: 1..2rem;
+    color: var(--primary-light);
+}
+
 
 
 
