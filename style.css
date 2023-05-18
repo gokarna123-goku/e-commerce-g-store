@@ -212,6 +212,33 @@ nav{
     color: var(--tertiary-light);
 }
 
+/* User Action Section */
+.action_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+.action_section button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.action_section a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
 
 
 
