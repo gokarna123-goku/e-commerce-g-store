@@ -279,6 +279,7 @@ nav{
     display: block;
 }
 .nav_items li{
+    position: relative;
     display: inline-block;
     margin-right: 1.7rem;
 }
@@ -287,6 +288,17 @@ nav{
     color: var(--primary-light);
     font-weight: 500;
     letter-spacing: 0.06rem;
+}
+
+/* Subnavbar Section */
+.subnav_section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+    z-index: 9999;
 }
 
 
