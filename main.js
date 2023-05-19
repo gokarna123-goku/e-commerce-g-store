@@ -57,7 +57,7 @@ const profileToggle = (e) => {
   const profileBox = document.getElementById("profile_box");
 
   if (profileBox.style.right === "-100%") {
-    profileBox.style.right = "1%";
+    profileBox.style.right = "10px";
   } else {
     profileBox.style.right = "-100%";
   }
