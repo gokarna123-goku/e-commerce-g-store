@@ -439,6 +439,12 @@ nav{
     align-items: center;
     column-gap: 0.4rem;
 }
+.cart_card img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
