@@ -32,34 +32,21 @@ $(document).ready(() => {
   });
 });
 
-// Notification Toggle
-// const notifyButton = document.getElementById("notify_toggle");
-// const notifyIcon = document.getElementById("notify_icon");
-// const notifyBox = document.getElementById("notification_box");
-
-// notifyButton.addEventListener("click", () => {
-//   if (notifyBox.style.right === "-100%") {
-//     notifyBox.style.right = "1%";
-//     notifyButton.style.backgroundColor = "#dedede";
-//     notifyIcon.style.color = "#f14c05";
-//     // notifyButton.classList.add("notification_active");
-//   } else {
-//     notifyBox.style.right = "-100%";
-//     notifyButton.style.backgroundColor = "#fafafa";
-//     notifyIcon.style.color = "#333333";
-//     // notifyButton.classList.remove("notification_active");
-//   }
-// });
-
 // Profile Toggle Section
-// const profileButton = document.getElementById("profile_toggle");
 const profileToggle = (e) => {
   const profileBox = document.getElementById("profile_box");
 
   if (profileBox.style.right === "-100%") {
     profileBox.style.right = "10px";
+    profileBox.style.transition = "0.5s ease-out";
+    if (scrollY >= 50){
+      profileBox.style.top = "9%"
+    } else {
+      profileBox.style.top = "15%"
+    }
   } else {
     profileBox.style.right = "-100%";
+    profileBox.style.transition = "0.5s ease-out";
   }
 };
 
