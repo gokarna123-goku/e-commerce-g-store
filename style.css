@@ -402,6 +402,28 @@ nav{
     margin: 0.5rem 0 0.8rem 0;
 }
 
+/* Shopping Cart Dropdown Box Section */
+.shopping_cart_box{
+    position: fixed;
+    float: right;
+    left: 0;
+    top: 0%;
+    width: 370px;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    transition: all 0.2s ease-out;
+    z-index: 9999;
+}
+
+
+
 
 /* Hero Section */
 .hero_section{
