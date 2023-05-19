@@ -367,7 +367,6 @@ nav{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    gap: 1.2rem;
     border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
     z-index: 9999;
@@ -375,22 +374,32 @@ nav{
 .profile_title{
     font-size: 0.99rem;
     color: var(--tertiary-light);
+    margin-bottom: 0.5rem;
 }
 .profile_link{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     column-gap: 0.6rem;
+    padding: 10px;
+    border-radius: 4px;
+    
 }
 .profile_link a{
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--primary-light);
 }
+.profile_link:hover{
+    background: rgba(0, 0, 0, 0.25);
+}
 
 .divider{
     width: 100%;
     height: 1px;
     background: rgba(0, 0, 0, 0.2);
+    margin: 0.5rem 0 0.8rem 0;
 }
 
 
