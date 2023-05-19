@@ -356,22 +356,41 @@ nav{
 .profile_box{
     position: fixed;
     float: right;
-    right: -100%;
+    right: 10px;
     top: 15%;
-    width: 390px;
-    min-height: 78vh;
-    max-height: 85vh;
+    width: 270px;
+    height: auto;
     background: #ffffff;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 1.2rem;
     border: 1px solid #dfdfdf;
     transition: all 0.2s ease-out;
     z-index: 9999;
+}
+.profile_title{
+    font-size: 0.99rem;
+    color: var(--tertiary-light);
+}
+.profile_link{
+    display: flex;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+.profile_link a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-light);
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 
