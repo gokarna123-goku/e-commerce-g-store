@@ -302,12 +302,15 @@ nav{
     border-radius: 4px;
     z-index: 9999;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.48);
+    display: none;
+    transition: 0.5s ease-out;
 }
 .subnav_section ul{
     display: block;
 }
 .subnav_section li{
     position: relative;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -324,7 +327,7 @@ nav{
 .nested_subnav_section{
     position: absolute;
     top: 0px;
-    left: 125%;
+    left: 100%;
     width: 250px;
     height: auto;
     padding: 10px 20px;
@@ -332,6 +335,14 @@ nav{
     border-radius: 4px;
     z-index: 9999;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.48);
+    display: none;
+    transition: 0.5s ease-out;
+}
+.nav_items li:hover .subnav_section{
+    display: block;
+}
+.subnav_section li:hover .nested_subnav_section{
+    display: block;
 }
 
 
