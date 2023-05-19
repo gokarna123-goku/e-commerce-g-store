@@ -445,6 +445,12 @@ nav{
     object-fit: cover;
     object-position: center;
 }
+.cart_detail{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
 
 
 
