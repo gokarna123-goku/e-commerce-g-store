@@ -421,7 +421,17 @@ nav{
     transition: all 0.2s ease-out;
     z-index: 9999;
 }
-
+.cart_box_title{
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--tertiary-light);
+    padding: 10px 0;
+}
+.cart_box{
+    width: 100%;
+    max-height: 75vh;
+    overflow-y: scroll;
+}
 
 
 
