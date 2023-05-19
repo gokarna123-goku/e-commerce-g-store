@@ -288,6 +288,7 @@ nav{
     color: var(--primary-light);
     font-weight: 500;
     letter-spacing: 0.06rem;
+    cursor: pointer;
 }
 
 /* Subnavbar Section */
@@ -322,6 +323,7 @@ nav{
     font-weight: 500;
     letter-spacing: 0.06rem;
     margin-bottom: 1rem;
+    cursor: pointer;
     transition: 0.5s ease-out;
 }
 .subnav_section li a:hover{
@@ -348,6 +350,28 @@ nav{
 }
 .subnav_section li:hover .nested_subnav_section{
     display: block;
+}
+
+/* Profile Dropdown Section */
+.profile_box{
+    position: fixed;
+    float: right;
+    right: -100%;
+    top: 9%;
+    width: 390px;
+    min-height: 78vh;
+    max-height: 85vh;
+    background: #ffffff;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px solid #dfdfdf;
+    transition: all 0.2s ease-out;
+    z-index: 1;
 }
 
 
