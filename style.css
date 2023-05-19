@@ -426,6 +426,7 @@ nav{
     font-weight: 500;
     color: var(--tertiary-light);
     padding: 10px 0;
+    margin-bottom: 1.2rem;
 }
 .cart_box{
     width: 100%;
