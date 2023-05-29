@@ -874,7 +874,34 @@ nav{
     gap: 1.2rem;
     padding: 40px 60px;
 }
-
+.left_section{
+    width: 40%;
+    height: auto;
+    display: flex;
+    font-size: 2.2rem;
+    color: #1d1d1d;
+    text-transform: capitalize;
+}
+.right_section{
+    width: 60%;
+    height: auto;
+}
+.input_group{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    background: #dfdfdf;
+    padding: 10px;
+}
+.input_group input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
 
 
 /* End of CSS */
