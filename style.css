@@ -403,10 +403,10 @@ nav{
 }
 
 /* Shopping Cart Dropdown Box Section */
-.shopping_cart_box{
+/* .shopping_cart_box{
     position: fixed;
     float: right;
-    left: 0;
+    right: 0;
     top: 0%;
     width: 370px;
     height: 100vh;
@@ -451,7 +451,7 @@ nav{
     align-items: flex-start;
     flex-direction: column;
     row-gap: 0.3rem;
-}
+} */
 
 
 
