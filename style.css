@@ -864,5 +864,17 @@ nav{
 }
 
 
+/* News letter section */
+.newsletter_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 40px 60px;
+}
+
+
 
 /* End of CSS */
