@@ -5,8 +5,10 @@ window.addEventListener("scroll", function () {
 
   if (scrollY >= 50) {
     navbar.classList.add("fixed");
+    navbar.style.transition = "0.5s ease-out";
   } else {
     navbar.classList.remove("fixed");
+    navbar.style.transition = "0.5s ease-out";
   }
 });
 
